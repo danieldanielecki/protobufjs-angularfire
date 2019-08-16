@@ -1,3 +1,7 @@
+# This repository (my note)
+
+The dependency **protobufjs** contains custom modification, i.e. in file `protobufjs/src/util/minimal.js` the following line `util.isNode = Boolean(util.global.process && util.global.process.versions && util.global.process.versions.node);` has been changed to `util.isNode = true;`. This is an issue with **@angular/fire**, [#1445](https://github.com/firebase/firebase-js-sdk/issues/1455).
+
 <h1><p align="center"><img alt="protobuf.js" src="https://github.com/dcodeIO/protobuf.js/raw/master/pbjs.png" width="120" height="104" /></p></h1>
 <p align="center"><a href="https://npmjs.org/package/protobufjs"><img src="https://img.shields.io/npm/v/protobufjs.svg" alt=""></a> <a href="https://travis-ci.org/dcodeIO/protobuf.js"><img src="https://travis-ci.org/dcodeIO/protobuf.js.svg?branch=master" alt=""></a> <a href="https://npmjs.org/package/protobufjs"><img src="https://img.shields.io/npm/dm/protobufjs.svg" alt=""></a> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=dcode%40dcode.io&item_name=Open%20Source%20Software%20Donation&item_number=dcodeIO%2Fprotobuf.js"><img alt="donate ❤" src="https://img.shields.io/badge/donate-❤-ff2244.svg"></a></p>
 
